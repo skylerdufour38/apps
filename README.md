@@ -231,13 +231,13 @@ Each app card includes a **Download App** button.
 Place the corresponding IPA files in:
 
 ```text
-apps/
+downloads/
 ```
 
 For example:
 
 ```text
-apps/
+downloads/
 ├── Animal Sounds 2.0.ipa
 ├── SoundTouch 1.4.ipa
 ├── Tozzle 3.7.ipa
@@ -248,7 +248,7 @@ apps/
 The website can then reference each file using a relative URL such as:
 
 ```text
-./apps/Animal%20Sounds%202.0.ipa
+./downloads/Animal%20Sounds%202.0.ipa
 ```
 
 ## GitHub Pages
@@ -263,7 +263,7 @@ Repository
    ├── index.html
    ├── styles.css
    ├── app.js
-   ├── apps/
+   ├── downloads/
    └── .github/workflows/pages.yml
 ```
 
